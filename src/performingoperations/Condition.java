@@ -19,14 +19,15 @@ public class Condition {
 		int num2 = 2468;
 
 		// declare the result variable as string
-		String result;
+		String result1, result2;
 
 		// determine whether the first integer value is an odd or even number
-		result = (num1 % 2 != 0) ? "Odd" : "Even";
-		System.out.println("num1 is " + result);
+		result1 = (num1 % 2 != 0) ? "Odd" : "Even";
+		System.out.println("num1 is " + result1);
 
 		// determine whether the second integer value is an odd or even number
-		System.out.println("num2 is " + result);
+		result2 = (num2 % 2 != 0) ? "Odd" : "Even";
+		System.out.println("num2 is " + result2);
 
 	}
 
